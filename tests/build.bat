@@ -12,7 +12,7 @@ set LibDirs=
 set Libs=
 
 :: Setup Flags
-set CommonFlags=/nologo /std:c11 /Oi /FC /EHa- /WX /W4 /wd4100 /wd4189 /wd4127
+set CommonFlags=/nologo /Oi /FC /EHa- /WX /W4
 
 :: Release Flags
 ::set CompilerFlags=/O2 /MT
