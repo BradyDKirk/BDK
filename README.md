@@ -6,13 +6,16 @@ A C standard library replacement with built-in math and cross-platform window cr
 ### *CAUTION: This project is extremely young and may contain security bugs. Use at your own discretion.*
 
 ## Usage
-```cpp
+In a single source file:
+```c
 #define BDK_NO_PREFIX // Optional: Turn of type/function name prefixing
 #define BDK_IMPLEMENTATION
 #include <bdk/bdk.h>
 ```
 
 Be sure to set the base repo folder as an include directory for your compiler or just copy the `bdk/` folder into your source and reference everything locally.
+
+*Visit [nothings/stb](https://github.com/nothings/stb) for more information on this approach.*
 
 ## Running Tests
 Tests are currently not formally being written but if you desire to build and run what is there perform the following:

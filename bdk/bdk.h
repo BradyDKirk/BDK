@@ -4,10 +4,6 @@
 #define BDK_H
 
 //
-//> Prefix
-//
-
-//
 // This is intended to only be used internally.
 //
 // Determines whether or not a prefix should be added to type/function names to 
