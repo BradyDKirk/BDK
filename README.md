@@ -15,7 +15,7 @@ In a single source file:
 
 Be sure to set the base repo folder as an include directory for your compiler or just copy the `bdk/` folder into your source and reference everything locally.
 
-*Visit [nothings/stb](https://github.com/nothings/stb) for more information on this approach.*
+*Visit [nothings/stb](https://github.com/nothings/stb?tab=readme-ov-file#how-do-i-use-these-libraries) for more information on this approach.*
 
 ## Running Tests
 Tests are currently not formally being written but if you desire to build and run what is there perform the following:
