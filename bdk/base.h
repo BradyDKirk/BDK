@@ -12,15 +12,11 @@
 #define local_persist static
 
 //
-//> Foreign
+//> Basic Types
 //
 
 #include <stdbool.h>
 #include <stdint.h>
-
-//
-//> Basic Types
-//
 
 typedef uint8_t  u8;
 typedef uint16_t u16;
@@ -55,14 +51,14 @@ typedef double   f64;
 
 #ifdef _DEBUG
     // @TODO(Brady): Incomplete!
-    #define ASSERT(expression) if (!(expression)) { *(int *)0 = 0; }
+    #define assert(expression) if (!(expression)) { *(int *)0 = 0; }
 #else
-    #define ASSERT(expression)
+    #define assert(expression)
 #endif
 
-#define ARRAY_COUNT(array) (sizeof(array) / sizeof((array)[0]))
+#define array_count(array) (sizeof(array) / sizeof((array)[0]))
 
-#define MIN(a, b) (((a) < (b)) ? (a) : (b))
-#define MAX(a, b) (((a) > (b)) ? (a) : (b))
+#define min(a, b) (((a) < (b)) ? (a) : (b))
+#define max(a, b) (((a) > (b)) ? (a) : (b))
 
 #endif // BDK_BASE_H

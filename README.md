@@ -6,10 +6,22 @@ A C standard library replacement with built-in math and cross-platform window cr
 ### *CAUTION: This project is extremely young and may contain security bugs. Use at your own discretion.*
 
 ## Usage
-*TODO*
+```cpp
+#define BDK_NO_PREFIX // Optional: Turn of type/function name prefixing
+#define BDK_IMPLEMENTATION
+#include <bdk/bdk.h>
+```
+
+Be sure to set the base repo folder as an include directory for your compiler or just copy the `bdk/` folder into your source and reference everything locally.
 
 ## Running Tests
-*TODO*
+Tests are currently not formally being written but if you desire to build and run what is there perform the following:
+
+(This only will work on Windows)
+1. Open a Developer Command Prompt or just verify your environment can invoke MSVC.
+2. `cd ..\path\to\BDK\tests\`
+3. Run `build`
+4. The resulting executable is in `BDK\tests\build\`
 
 ## License
 *BDK* is licensed under the MIT License. See [LICENSE.txt](LICENSE.txt) for details.
