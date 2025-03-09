@@ -8,7 +8,7 @@ A C standard library replacement with built-in math and cross-platform window cr
 ## Usage
 In a single source file:
 ```c
-#define BDK_NO_PREFIX // Optional: Turn of type/function name prefixing
+#define BDK_NO_PREFIX // Optional: Turn off type/function name prefixing
 #define BDK_IMPLEMENTATION
 #include <bdk/bdk.h>
 ```
